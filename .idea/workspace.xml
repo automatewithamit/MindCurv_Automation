@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1f4ad99-685c-4476-af9b-d599cdfb1508" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/2023.05.03.15.52.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/2023.05.04.15.24.57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindcurv/framework/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindcurv/framework/OptionsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindcurv/helper/PropertiesHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindcurv/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindcurv/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindcurv/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/locators.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/runConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExplicitWaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileDownloadUploadTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlipkartLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HandleAlertPopUpsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IFrameTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KeyBoardEventTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatingWebElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MouseActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NavigationCommandsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScreenShotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SetUpChromeDriverTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PDyZrNQNmdPIvAx7NXrBInosoz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.FlipkartLoginTest">
+    <configuration name="ExplicitWaitTest.Test10_findElementsUsing_FluentWait" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExplicitWaitTest" />
+      <option name="METHOD_NAME" value="Test10_findElementsUsing_FluentWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlipkartLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlipkartLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlipkartLoginTest.Test1_verifyErrorLabelAfterEnteringWrongMobileNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlipkartLoginTest" />
+      <option name="METHOD_NAME" value="Test1_verifyErrorLabelAfterEnteringWrongMobileNumber" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationCommandsTests.Test4_navigateToURL" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NavigationCommandsTests" />
+      <option name="METHOD_NAME" value="Test4_navigateToURL" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreenShotTest.Test11_findElementsUsing_ExplicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScreenShotTest" />
+      <option name="METHOD_NAME" value="Test11_findElementsUsing_ExplicitWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetUpChromeDriverTests.OpeningChromeBrowserUsingWebDriverManager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SetUpChromeDriverTests" />
+      <option name="METHOD_NAME" value="OpeningChromeBrowserUsingWebDriverManager" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetUpChromeDriverTests.OpeningChromeBrowserUsingWebDriverManager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SetUpChromeDriverTests" />
+      <option name="METHOD_NAME" value="OpeningChromeBrowserUsingWebDriverManager" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="W3SchoolsTests.OpeningChromeBrowserUsingWebDriverManager (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="W3SchoolsTests" />
+      <option name="METHOD_NAME" value="OpeningChromeBrowserUsingWebDriverManager" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="W3SchoolsTests.OpeningChromeBrowserUsingWebDriverManager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MindCurv_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="W3SchoolsTests" />
+      <option name="METHOD_NAME" value="OpeningChromeBrowserUsingWebDriverManager" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FlipkartLoginTest" />
+        <item itemvalue="TestNG.FlipkartLoginTest.Test1_verifyErrorLabelAfterEnteringWrongMobileNumber" />
+        <item itemvalue="TestNG.NavigationCommandsTests.Test4_navigateToURL" />
+        <item itemvalue="TestNG.ExplicitWaitTest.Test10_findElementsUsing_FluentWait" />
+        <item itemvalue="TestNG.ScreenShotTest.Test11_findElementsUsing_ExplicitWait" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1f4ad99-685c-4476-af9b-d599cdfb1508" name="Changes" comment="" />
+      <created>1683006008645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683006008645</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HandleAlertPopUpsTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FileDownloadUploadTests.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
