@@ -13,9 +13,6 @@ public class BasePage {
 
     public String getLocator(String webElementName) {
         locators.getProperty(webElementName);
-
-
         return "";
-
     }
 }
