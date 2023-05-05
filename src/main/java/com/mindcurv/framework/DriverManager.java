@@ -9,8 +9,10 @@ import java.time.Duration;
 import java.util.Locale;
 
 public class DriverManager {
+
     OptionsManager optionsManager = new OptionsManager();
-    private static WebDriver driver;
+    private static ThreadLocal<WebDriver> localDriverThread = new ThreadLocal<WebDriver>();
+    //private static WebDriver driver;
     PropertiesHelper runConfigProperties = new PropertiesHelper("runConfig.properties");
 
     public void openBrowser() {
@@ -22,11 +24,13 @@ public class DriverManager {
         System.out.println("Starting " + browserName + " Browser...");
         switch (browserName) {
             case "chrome":
-                DriverManager.driver = new ChromeDriver(optionsManager.getChromeOptions());
+                //DriverManager.driver = new ChromeDriver(optionsManager.getChromeOptions());
+                localDriverThread.set(new ChromeDriver(optionsManager.getChromeOptions()));
 
                 break;
             case "edge":
-                DriverManager.driver = new EdgeDriver(optionsManager.getEdgeOptions());
+                //DriverManager.driver = new EdgeDriver(optionsManager.getEdgeOptions());
+                localDriverThread.set(new EdgeDriver(optionsManager.getEdgeOptions()));
                 break;
             default:
                 System.out.println(browserName + " Browser is not Available");
@@ -47,14 +51,14 @@ public class DriverManager {
 //        options.setExperimentalOption("pref",browserPref);
 
 
-        DriverManager.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         //This helps to maximize the Browser window
         DriverManager.getDriver().manage().window().maximize();
 
     }
 
     public static WebDriver getDriver() {
-        return driver;
+        return localDriverThread.get();
     }
 
 

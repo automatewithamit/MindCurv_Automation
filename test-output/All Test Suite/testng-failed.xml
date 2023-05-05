@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/DragonWarrior-PC/eclipse-workspace/MindCurv_Automation(failed)">
+    <classes>
+      <class name="HandleAlertPopUpsTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Test17_workWithAlertPopups"/>
+        </methods>
+      </class> <!-- HandleAlertPopUpsTest -->
+      <class name="FlipkartLoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Test1_verifyErrorLabelAfterEnteringWrongMobileNumber"/>
+        </methods>
+      </class> <!-- FlipkartLoginTest -->
+    </classes>
+  </test> <!-- C:/Users/DragonWarrior-PC/eclipse-workspace/MindCurv_Automation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
